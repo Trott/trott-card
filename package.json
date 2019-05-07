@@ -1,16 +1,16 @@
 {
-  "name": "bitandbang",
-  "version": "1.4.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "name": "trott",
+  "version": "1.0.0",
+  "description": "A personal card for Rich Trott (@trott)",
   "main": "/bin/card.js",
   "bin": {
     "bitandbang": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/trott/bitandbang.git"
   },
-  "homepage": "https://bnb.im",
+  "homepage": "https://trott.github.io/",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -26,7 +26,6 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
   "license": "MIT",
   "files": [
     "bin/card.js",
