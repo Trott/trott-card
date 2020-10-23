@@ -1,4 +1,4 @@
-It's me, Rich! I copied this idea from [Tierney](https://github.com/bitandbang/bitandbang).
+It's me, Rich! I copied this idea from [Tierney](https://github.com/bnb/bitandbang).
 
 # Usage
 Via npx:
