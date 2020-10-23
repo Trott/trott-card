@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/trott/trott-card/compare/v1.0.0...v1.0.1) (2020-10-23)
+
+
+### Bug Fixes
+
+* update lifecycle scripts ([#5](https://github.com/trott/trott-card/issues/5)) ([195b461](https://github.com/trott/trott-card/commit/195b4619bca2613961b6236d919b018791f44db9))
+
 # 1.0.0 (2020-10-23)
 
 
