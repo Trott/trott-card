@@ -15,7 +15,7 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('               Rich Trott'),
+  name: chalk.white('              Rich Trott'),
   handle: chalk.white('Trott'),
   work: chalk.white('Director of the Center for Knowledge Management at UCSF'),
   opensource: chalk.white('Node.js Technical Steering Committee ') + chalk.green('⬢'),
