@@ -17,7 +17,7 @@ const options = {
 const data = {
   name: chalk.white('              Rich Trott'),
   handle: chalk.white('Trott'),
-  work: chalk.white('Director of the Center for Knowledge Management at UCSF'),
+  work: chalk.white('Director of Technology Strategy & Services\n              UCSF Library'),
   opensource: chalk.white('Node.js Technical Steering Committee ') + chalk.green('⬢'),
   twitter: chalk.gray('https://twitter.com/') + chalk.cyan('Trott'),
   npm: chalk.gray('https://npmjs.com/') + chalk.red('~trott'),
@@ -50,7 +50,7 @@ const carding = `${data.labelCard}  ${data.npx}`
 // Put all our output together into a single variable so we can use boxen effectively
 const output = heading + // data.name + data.handle
                newline + newline + // Add one whole blank line
-               working + newline + // data.labelWork + data.work
+               working + newline + newline + // data.labelWork + data.work
                opensourcing + newline + newline + // data.labelOpenSource + data.opensource
                twittering + newline + // data.labelTwitter + data.twitter
                npming + newline + // data.labelnpm + data.npm
