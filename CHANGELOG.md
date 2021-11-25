@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/trott/trott-card/compare/v1.0.1...v1.0.2) (2021-11-25)
+
+
+### Bug Fixes
+
+* update job title ([#15](https://github.com/trott/trott-card/issues/15)) ([fb23778](https://github.com/trott/trott-card/commit/fb2377849d9bc7d644ab604e5fb49d3c85a5e89b))
+
 ## [1.0.1](https://github.com/trott/trott-card/compare/v1.0.0...v1.0.1) (2020-10-23)
 
 
