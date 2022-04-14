@@ -2,15 +2,18 @@
 
 // Pull in our modules
 import chalk from 'chalk'
-import boxen from 'boxen'
+import boxen, { Options } from 'boxen'
 import * as fs from 'fs'
 
 // Define options for Boxen
-const options = {
+const options: Options = {
   padding: 1,
   margin: 1,
   borderStyle: 'round'
 }
+
+// Force color support
+chalk.level = 1
 
 // Text + chalk definitions
 const data = {
@@ -58,4 +61,4 @@ const output = heading + // data.name + data.handle
                webing + newline + newline + // data.labelWeb + data.web
                carding // data.labelCard + data.npx
 
-fs.writeFileSync(new URL('bin/output', import.meta.url), chalk.green(boxen(output, options)))
+fs.writeFileSync(new URL('output', import.meta.url), chalk.green(boxen(output, options)))
